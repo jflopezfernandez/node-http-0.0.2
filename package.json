@@ -1,0 +1,26 @@
+{
+  "name": "web-app-0.0.1",
+  "version": "1.0.0",
+  "description": "Teleconferencing application written on the node.js framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "api"
+  ],
+  "author": "Jose Fernando Lopez Fernandez",
+  "license": "ISC",
+  "engines": {
+    "node": "9.5.0",
+    "npm": "5.6.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "method-override": "^2.3.10",
+    "mongoose": "^5.0.6",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.15.0"
+  }
+}
